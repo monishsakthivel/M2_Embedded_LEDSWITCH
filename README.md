@@ -1,1 +1,1 @@
-# M2_Embedded_LEDSWITCH
+# EMB-C
