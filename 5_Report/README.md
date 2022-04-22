@@ -1,3 +1,5 @@
+Requirements
+---
 Introduction
  -----  
       Squinting of LED is a basic venture in Embedded programming world. There are multiple approaches to making a flickering LED circuit. You can make one utilizing transfers. You can make one utilizing semiconductors. Or on the other hand you can make one utilizing parts like an inverter, a 555 Timer or a microcontroller. Here switch is utilized to squint the two LED utilizing ATmega328(a microcontroller).
@@ -125,7 +127,9 @@ Simulation
 ---
 ![circuit](https://user-images.githubusercontent.com/102243824/164655270-bd8a54cb-5fe1-48f9-8688-13780105d4fb.png)
 
-  High Level Requirement
+Test Plan 
+---
+High Level Requirement
 ----
 
 |Id	| Description | Expected I/P	| Expected O/P | Actual O/P |	Type Of Test |
@@ -140,3 +144,12 @@ Low Level Requirement
 | --- | --- | --- | ---| --- | --- |
 | LLR_1 |  Switch on | Value 1	| LED On | 	LED On |	Rquirement |
 | LLR_2 |	Switch Off | Value 0 | 	LED Off |	LED Off |	Requirement |
+
+Switch is Off
+---
+![switch off](https://user-images.githubusercontent.com/102243824/164673910-105169e4-0503-4dae-89d9-a99651804750.png)
+
+Switch is On 
+---
+![switch on 1](https://user-images.githubusercontent.com/102243824/164673998-08e4d3de-97de-413c-958a-7ede6ba22998.png)
+![switch on 2](https://user-images.githubusercontent.com/102243824/164674028-2efb7c7a-65cc-4a59-9a7d-f47179532929.png)
