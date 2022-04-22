@@ -1,1 +1,1 @@
-# EMB-C
+# EMBEDDED-C
